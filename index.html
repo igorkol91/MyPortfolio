@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="./styles/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+
+
+    <header class="main-header flex">
+        <section class="welcome">
+            <a href="./index.html">
+                <h3>Welcome</h3>
+            </a>
+        </section>
+
+        <nav class="menu" id="nav">
+            <i id="ham_x" class="fa fa-bars menu-icon" aria-hidden="true"></i>
+            <ul class="menu-list" id="menu-list">
+                <li><a href="#works" onclick="show()">Portfolio</a></li>
+                <li><a href="#about-me" onclick="show()">About</a></li>
+                <li><a href="#contact" onclick="show()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="random">
+
+        <div class="drop-down-mobile none"></div>
+
+        <section class="headline pd-tp-bt">
+            <header>
+                <h1>
+                    <span class="clr-secondary">Hey there. I’m Igor</span><span class="clr-primary block">I’m a full stack web developer</span>
+                </h1>
+            </header>
+
+            <section class="headline-info pd-tp-bt">
+                <p>
+                    I'm enjoying working with Ruby on rails and JavaScript.Fan of pair programming and remote work.
+                </p>
+            </section>
+            <section class="social pd-tp-bt">
+                <ul class="flex social-ul">
+                    <li><a href="https://twitter.com/"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
+                    <li><a href="https://linkedin.com"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
+                    <li><a href="https://medium.com/"><i class="fa fa-medium " aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/"><i class="fa fa-github " aria-hidden="true"></i></a></li>
+                    <li><a href="https://angel.co/"><i class="fa fa-angellist" aria-hidden="true"></i></a></li>
+
+                </ul>
+            </section>
+        </section>
+    </div>
+
+    <main>
+
+
+
+
+        <section>
+            <header class="clr-secondary works-title" id="works">
+                <h1>my recent works</h1>
+                <div class="underline"></div>
+            </header>
+        </section>
+        <ul class="grid card-container">
+
+            <!-- CARDS -->
+
+        </ul>
+
+
+
+        <section class="trd-section">
+            <article class="card flex column clr-bg-gray third-section-cls">
+                <div><img src="./assets/football-page.png" alt="project logo" class="wh-100"></div>
+
+                <section class="img-info flex column height50">
+                    <h2 class="third-section-h2">Football page</h2>
+                    <a href="https://github.com/igorkol91/footbal-page">GitHub</a>
+                    <ul class="flex ul-skills third-section-ul-cls">
+                        <li><a href="#">Ruby on Rails</a></li>
+                        <li><a href="#">Css</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">Html</a></li>
+                        <li><a href="#">Heroku</a></li>
+                    </ul>
+                </section>
+
+            </article>
+
+            <article class="card flex column clr-bg-gray third-section-cls">
+                <div><img src="./assets/sc3.png" alt="project logo" class="wh-100"></div>
+
+                <section class="img-info flex column height50">
+                    <h2 class="third-section-h2">Tic Tac Toe</h2>
+                    <a href="https://github.com/TedLivist/tic-tac-toe">GitHub</a>
+                    <ul class="flex ul-skills third-section-ul-cls">
+                        <li><a href="#">Ruby</a></li>
+                        <li><a href="#">Terminal</a></li>
+                    </ul>
+                </section>
+
+            </article>
+
+            <article class="card flex column clr-bg-gray third-section-cls">
+                <div><img src="./assets/big-sc.png" alt="project logo" class="wh-100"></div>
+
+                <section class="img-info flex column height50">
+                    <h2 class="third-section-h2">Concert Site</h2>
+                    <a href="https://github.com/igorkol91/ConcertSite">GitHub</a>
+                    <ul class="flex ul-skills third-section-ul-cls">
+                        <li><a href="#">Html</a></li>
+                        <li>
+                            <a href="#">Sass</a>
+                        </li>
+                        <li><a href="#">Bootstrap</a></li>
+                    </ul>
+                </section>
+
+            </article>
+
+
+        </section>
+
+        <article class="get-in-touch-container" id="contact">
+
+            <section class="about-me" id="about-me">
+
+                <h1 class="pd-tp-bt">
+                    About me
+                </h1>
+                <p class="pd-bt">
+                    I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                </p>
+                <div class="about-me-bottom">
+                    <a href="#" class="btn-more btn-resume">Get My Resume</a>
+                </div>
+
+            </section>
+
+
+
+
+
+        </article>
+    </main>
+    <footer>
+        <a href="#" class="contact-email">koloski_igor@hotmail.com</a>
+
+        <div class="desktop-line"></div>
+        <section class="social pd-tp-bt get-in-touch-social">
+            <ul class="flex social-ul ul-bot">
+                <li><a href="https://twitter.com/"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
+                <li><a href="https://linkedin.com"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
+                <li><a href="https://medium.com/"><i class="fa fa-medium " aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/"><i class="fa fa-github " aria-hidden="true"></i></a></li>
+                <li><a href="https://angel.co/"><i class="fa fa-angellist" aria-hidden="true"></i></a></li>
+            </ul>
+        </section>
+    </footer>
+    <script>
+        feather.replace()
+    </script>
+    <script src="script.js"></script>
+    <script src="popup.js"></script>
+</body>
+
+</html>
