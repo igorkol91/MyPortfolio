@@ -123,7 +123,7 @@ header {
     z-index: 100;
 
     transform: translateX(100%);
-    transition: transorm 250ms cubic-bezier(.5, 0, .5, 1);
+    transition: transform 250ms ease-in-out;
 }
 
 .nav__list {
@@ -161,6 +161,7 @@ header {
 
 .nav-open .nav {
     transform: translateX(0);
+    transition: transform 250ms ease-in-out;
 }
 
 .nav-open .nav-toggle {
