@@ -402,7 +402,8 @@ header {
     justify-self: center;
     max-width: 350px;
     max-height: 450px;
-    padding: .3em;
+    border: .3em solid;
+    border-color: var(--clr-accent);
 }
 
 .portfolio__img {
