@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.11.2/css/all.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/423c0731c0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/main.css">
     <title>Igor's Portfolio</title>
 </head>
@@ -26,9 +26,6 @@
             </ul>
         </nav>
     </header>
-
-    <!-- Introduction-->
-
     <section class="intro" id="home">
         <h1 class="section__title section__title--intro">
             Hi, I am <strong>Igor Koloski</strong>
@@ -70,28 +67,16 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat harum sit reprehenderit sequi quis delectus tempora nulla culpa quaerat et impedit pariatur necessitatibus tenetur, nostrum, ea, laboriosam mollitia veritatis? Eaque?</p>
         </div>
 
-        <img src="./assets/myPic.jpeg" alt="">
+        <img src="./assets/myPic.jpeg" alt="" class="about-me__img">
     </section>
 
     <!-- My Work -->
 
     <section class="my-work" id="work">
-        <h2 class="section__title">My Work</h2>
-        <p class="section__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti et recusandae ipsum placeat quos ullam! Eaque, facere quia, odio provident esse iusto nesciunt ratione maiores similique suscipit, tempora asperiores enim.</p>
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work.</p>
         <div class="portfolio">
             <!-- Portfolio -->
-            <a href="#" class="portfolio__item">
-                <img src="./assets/myPic.jpeg" alt="" class="portfolio__img">
-            </a>
-            <a href="#" class="portfolio__item">
-                <img src="./assets/myPic.jpeg" alt="" class="portfolio__img">
-            </a>
-            <a href="#" class="portfolio__item">
-                <img src="./assets/myPic.jpeg" alt="" class="portfolio__img">
-            </a>
-            <a href="#" class="portfolio__item">
-                <img src="./assets/myPic.jpeg" alt="" class="portfolio__img">
-            </a>
             <a href="#" class="portfolio__item">
                 <img src="./assets/myPic.jpeg" alt="" class="portfolio__img">
             </a>
@@ -115,13 +100,29 @@
 
     <!-- Footer -->
 
-    <footer>
+    <footer class="footer">
         <a href="mailto:koloski_igor@hotmail.com" class="footer__link">koloski_igor@hotmail.com</a>
         <ul class="social-list">
-            <li class="social-list__item"><a href="github" class="social-list__link">a</a></li>
-            <li class="social-list__item"><a href="linkedin" class="social-list__link">b</a></li>
-            <li class="social-list__item"><a href="angellist" class="social-list__link">c</a></li>
-            <li class="social-list__item"><a href="twitter" class="social-list__link">d</a></li>
+            <li class="social-list__item">
+                <a title="github" href="github" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a title="linkedin" href="linkedin" class="social-list__link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a title="angellist" href="angellist" class="social-list__link">
+                    <i class="fab fa-angellist"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a title="twitter" href="twitter" class="social-list__link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
         </ul>
     </footer>
 
