@@ -310,20 +310,27 @@ header {
 .services {
     margin-bottom: 4em;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 .service {
-    max-width: 500px;
+    max-width: 400px;
     margin: 0 auto;
 }
 
 @media (min-width: 800px) {
     .services {
         display: flex;
+        flex-direction: row;
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
+        justify-content: space-evenly;
+    }
+
+    .service {
+        width: 30%;
+        margin: 0 auto;
     }
 
     .service + .service {
