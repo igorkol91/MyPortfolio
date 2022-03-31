@@ -1,4 +1,4 @@
 # MyPortfolio
 
-A showcase of my previous projects
+https://igorkol91.github.io/MyPortfolio/
      
